@@ -10,13 +10,10 @@ public class Editora {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column
     private String nome;
 
-    @Column
     private String email;
 
-    @Column
     private String telefone;
 
     public Editora() {
